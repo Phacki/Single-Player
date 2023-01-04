@@ -1,0 +1,19 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 42137417685.6,"dur": 1643301.7, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 42137440106,"dur": 188300.9, "ph":"X", "name": "Preprocess Player"},
+{}
+
+],
+"meta_datetime": "01/04/2023 04:35:11",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.7f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\RedIce\\Documents\\GitHub\\FPS\\Single Player FPS\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-RedIce -hubSessionId c914f5b0-8b97-11ed-9927-cb42b855b5b5 -accessToken dq9gfokjRdrjiLDcqR6wKpSV_82LGArMDdLxgcAfCUc001f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.7f1\\Editor\\Unity.exe -projectpath C:\\Users\\RedIce\\Documents\\GitHub\\FPS\\Single Player FPS -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-RedIce -hubSessionId c914f5b0-8b97-11ed-9927-cb42b855b5b5 -accessToken dq9gfokjRdrjiLDcqR6wKpSV_82LGArMDdLxgcAfCUc001f",
+"meta_user_name": "RedIce",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "8"
+}
