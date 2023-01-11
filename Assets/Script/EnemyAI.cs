@@ -25,7 +25,10 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         // Set the destination of the NavMeshAgent to the player's position
-        agent.SetDestination(player.transform.position);
+        if(controller.playerDead == false)
+        {
+            agent.SetDestination(player.transform.position);
+        }
     }
 
     // This method is called when the enemy collides with another collider
@@ -40,6 +43,7 @@ public class EnemyAI : MonoBehaviour
             if (controller.Health <= 0f)
             {
                 // If so, call the player's Die method
+                controller.playerDead = true;
                 controller.Die();
             }
         }

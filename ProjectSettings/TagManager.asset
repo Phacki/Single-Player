@@ -3,21 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ground
-  - Head
-  - Body
-  - Bot
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Floor
+  - 
   - Water
   - UI
-  - Weapons
-  - PlayerBody
-  - Wall Bang
+  - 
+  - 
+  - 
   - 
   - 
   - 

@@ -7,8 +7,8 @@ using TMPro;
 public class PlayerMovement : MonoBehaviour
 {
     // Manages these attributes of the Player:
-    //- Retrieves player coordinates
-
+    //- Determines if player is alive or not
+    public bool playerDead;
     // Manages these attributes of the Player:
     //- health
     //- movement speed

@@ -23,10 +23,10 @@ public class RelaunchScript : MonoBehaviour
         string username = userName;
         string password = passWord;
 
-        //// Build the command-line arguments string
-        //string arguments = $"--username {username} --password {password}";
+        // Build the command-line arguments string
+        string arguments = $"--username {username} --password {password}";
 
-        //// Launch the executable file with the command-line arguments
-        //System.Diagnostics.Process.Start("C:\path\to\executable.exe", arguments);
+        // Launch the executable file with the command-line arguments
+        System.Diagnostics.Process.Start("C:\\Users\\RedIce\\Desktop\\SeaTea FullGame\\GameModes\\SinglePlayer\\SinglePlayer.exe", arguments);
     }
 }
